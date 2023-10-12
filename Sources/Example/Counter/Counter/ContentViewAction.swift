@@ -7,7 +7,7 @@
 
 import Vam
 
-class ContentViewAction: Action<ContentViewModel> {
+class ContentViewAction: VamAction<ContentViewModel> {
     
     func didTapButton() {
         model?.count += 1

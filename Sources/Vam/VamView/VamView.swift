@@ -9,8 +9,8 @@ import SwiftUI
 
 public protocol VamView: View {
     
-    associatedtype Action: Actionable
-    associatedtype Model: Modelable
+    associatedtype Action: VamActionable
+    associatedtype Model: VamModelable
     
     @MainActor var action: Action { get }
     @MainActor var model: Model { get }

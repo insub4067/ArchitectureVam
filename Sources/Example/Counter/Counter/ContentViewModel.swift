@@ -8,7 +8,7 @@
 import Foundation
 import Vam
 
-class ContentViewModel: Model {
+class ContentViewModel: VamModel {
     
     @Published var count = 0
 }

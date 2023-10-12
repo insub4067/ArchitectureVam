@@ -10,8 +10,8 @@ import Vam
 
 struct ContentView: VamView {
 
-    typealias Action = ContentViewAction
-    typealias Model = ContentViewModel
+    typealias VamAction = ContentViewAction
+    typealias VamModel = ContentViewModel
     
     let action: ContentViewAction
     @StateObject var model: ContentViewModel
