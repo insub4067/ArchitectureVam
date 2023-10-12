@@ -35,7 +35,7 @@ struct ContentView: VamView {
 ```
 ### ✔️ Action
 ```swift
-class ContentViewAction: Action<ContentViewModel> {
+class ContentViewAction: VamAction<ContentViewModel> {
     
     func didTapButton() {
         model?.count += 1
@@ -44,7 +44,7 @@ class ContentViewAction: Action<ContentViewModel> {
 ```
 ### ✔️ Model
 ```swift
-class ContentViewModel: Model {
+class ContentViewModel: VamModel {
     
     @Published var count = 0
 }
