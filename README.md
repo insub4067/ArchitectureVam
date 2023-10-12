@@ -1,7 +1,7 @@
 # 🔄 VAM
 
 ## 🤔 What is Vam?
-> Vam is a package to support to use MVI which is Uni-Directional architecture in SwiftUI.
+> Vam is a package for support to use MVI (Uni-Directional Architecture) in SwiftUI.
 
 ### ✔️ View
 ```swift
