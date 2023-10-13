@@ -1,10 +1,10 @@
-# 🔄 VAM
+# 🔄 ArchitectureVam
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Static Badge](https://img.shields.io/badge/iOS-v14-blue)
 ![Static Badge](https://img.shields.io/badge/Swift-5.4-orange)
 
-## 🤔 What is Vam?
+## 🤔 What is ArchitectureVam?
 > Vam is a package for support to use MVI (Uni-Directional Architecture) in SwiftUI.
 
 ### ✔️ View
