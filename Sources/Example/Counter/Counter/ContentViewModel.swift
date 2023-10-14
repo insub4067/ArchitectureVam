@@ -6,9 +6,9 @@
 //
 
 import Foundation
-import Vam
+import ArchitectureVam
 
-class ContentViewModel: VamModel {
+class ContentViewModel: ArchitectureVamModel {
     
     @Published var count = 0
 }

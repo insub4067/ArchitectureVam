@@ -1,5 +1,5 @@
 //
-//  VamView.swift
+//  ArchitectureVamView.swift
 //
 //
 //  Created by 김인섭 on 10/12/23.
@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-public protocol VamView: View {
+public protocol ArchitectureVamView: View {
     
-    associatedtype Action: VamActionable
-    associatedtype Model: VamModelable
+    associatedtype Action: ArchitectureVamActionable
+    associatedtype Model: ArchitectureVamModelable
     
     @MainActor var action: Action { get }
     @MainActor var model: Model { get }

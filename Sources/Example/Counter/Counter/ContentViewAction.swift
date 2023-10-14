@@ -5,9 +5,9 @@
 //  Created by 김인섭 on 10/12/23.
 //
 
-import Vam
+import ArchitectureVam
 
-class ContentViewAction: VamAction<ContentViewModel> {
+class ContentViewAction: ArchitectureVamAction<ContentViewModel> {
     
     func didTapButton() {
         model?.count += 1

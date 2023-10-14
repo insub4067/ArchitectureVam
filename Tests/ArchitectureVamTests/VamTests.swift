@@ -1,7 +1,7 @@
 import XCTest
-@testable import Vam
+@testable import ArchitectureVam
 
-final class VamTests: XCTestCase {
+final class ArchitectureVamTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest

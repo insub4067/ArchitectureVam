@@ -6,12 +6,12 @@
 //
 #if canImport(SwiftUI)
 import SwiftUI
-import Vam
+import ArchitectureVam
 
-struct ContentView: VamView {
+struct ContentView: ArchitectureVamView {
 
-    typealias VamAction = ContentViewAction
-    typealias VamModel = ContentViewModel
+    typealias ArchitectureVamAction = ContentViewAction
+    typealias ArchitectureVamModel = ContentViewModel
     
     let action: ContentViewAction
     @StateObject var model: ContentViewModel
