@@ -4,12 +4,12 @@
 ![Static Badge](https://img.shields.io/badge/iOS-v14-blue)
 ![Static Badge](https://img.shields.io/badge/Swift-5.4-orange)
 
-## 🤔 What is ArchitectureArchitectureVam?
+## 🤔 What is ArchitectureVam?
 > ArchitectureVam is a package for support to use MVI (Uni-Directional Architecture) in SwiftUI.
 
 ### ✔️ View
 ```swift
-struct ContentView: ArchitectureVamView {
+struct ContentView: VamView {
 
     typealias Action = ContentViewAction
     typealias Model = ContentViewModel
@@ -35,7 +35,7 @@ struct ContentView: ArchitectureVamView {
 ```
 ### ✔️ Action
 ```swift
-class ContentViewAction: ArchitectureVamAction<ContentViewModel> {
+class ContentViewAction: VamAction<ContentViewModel> {
     
     func didTapButton() {
         model?.count += 1
@@ -44,7 +44,7 @@ class ContentViewAction: ArchitectureVamAction<ContentViewModel> {
 ```
 ### ✔️ Model
 ```swift
-class ContentViewModel: ArchitectureVamModel {
+class ContentViewModel: VamModel {
     
     @Published var count = 0
 }
