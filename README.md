@@ -34,6 +34,7 @@ struct ContentView: VamView {
 }
 ```
 ### ✔️ Action
+```swift
 class ContentViewAction: Action<ContentViewModel> {
     
     func increaseCount() {
