@@ -1,4 +1,4 @@
-# 🔄 ArchitectureArchitectureVam
+# 🔄 ArchitectureVam
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Static Badge](https://img.shields.io/badge/iOS-v14-blue)
