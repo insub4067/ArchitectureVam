@@ -7,4 +7,4 @@
 
 import Foundation
 
-public protocol ArchitectureVamModelable: AnyObject { }
+public protocol Modelable: AnyObject { }

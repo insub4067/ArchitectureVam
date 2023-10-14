@@ -8,10 +8,10 @@
 import SwiftUI
 import ArchitectureVam
 
-struct ContentView: ArchitectureVamView {
-
-    typealias ArchitectureVamAction = ContentViewAction
-    typealias ArchitectureVamModel = ContentViewModel
+struct ContentView: VamView {
+    
+    typealias Action = ContentViewAction
+    typealias Model = ContentViewModel
     
     let action: ContentViewAction
     @StateObject var model: ContentViewModel
@@ -19,8 +19,8 @@ struct ContentView: ArchitectureVamView {
     var body: some View {
         VStack {
             Text("\(model.count)")
-            Button("Tap to Increase Count") {
-                action.didTapButton()
+            Button("Tap to increase count") {
+                action.increaseCount()
             }
         }
     }

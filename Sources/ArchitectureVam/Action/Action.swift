@@ -7,7 +7,7 @@
 
 import Foundation
 
-@MainActor open class ArchitectureVamAction<T: ArchitectureVamModel>: ArchitectureVamActionable {
+@MainActor open class Action<T: Model>: Actionable {
     
     public weak var model: T?
     

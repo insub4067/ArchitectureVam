@@ -10,7 +10,7 @@
 ### ✔️ View
 ```swift
 struct ContentView: VamView {
-
+    
     typealias Action = ContentViewAction
     typealias Model = ContentViewModel
     
@@ -20,8 +20,8 @@ struct ContentView: VamView {
     var body: some View {
         VStack {
             Text("\(model.count)")
-            Button("Tap to Increase Count") {
-                action.didTapButton()
+            Button("Tap to increase count") {
+                action.increaseCount()
             }
         }
     }
@@ -34,17 +34,16 @@ struct ContentView: VamView {
 }
 ```
 ### ✔️ Action
-```swift
-class ContentViewAction: VamAction<ContentViewModel> {
+class ContentViewAction: Action<ContentViewModel> {
     
-    func didTapButton() {
+    func increaseCount() {
         model?.count += 1
     }
 }
 ```
 ### ✔️ Model
 ```swift
-class ContentViewModel: VamModel {
+class ContentViewModel: Model {
     
     @Published var count = 0
 }

@@ -4,12 +4,13 @@
 //
 //  Created by 김인섭 on 10/12/23.
 //
-
+#if canImport(SwiftUI)
 import ArchitectureVam
 
-class ContentViewAction: ArchitectureVamAction<ContentViewModel> {
+class ContentViewAction: Action<ContentViewModel> {
     
-    func didTapButton() {
+    func increaseCount() {
         model?.count += 1
     }
 }
+#endif

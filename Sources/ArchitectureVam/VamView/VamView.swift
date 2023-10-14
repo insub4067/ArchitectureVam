@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-public protocol ArchitectureVamView: View {
+public protocol VamView: View {
     
-    associatedtype Action: ArchitectureVamActionable
-    associatedtype Model: ArchitectureVamModelable
+    associatedtype Action: Actionable
+    associatedtype Model: Modelable
     
     @MainActor var action: Action { get }
     @MainActor var model: Model { get }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol ArchitectureVamActionable: AnyObject {
+public protocol Actionable: AnyObject {
     
     associatedtype Model
     
