@@ -4,8 +4,8 @@
 ![Static Badge](https://img.shields.io/badge/iOS-v14-blue)
 ![Static Badge](https://img.shields.io/badge/Swift-5.4-orange)
 
-## 🤔 What is ArchitectureVam?
-> ArchitectureVam is a package for support to use MVI (Uni-Directional Architecture) in SwiftUI.
+## 🤔 What is Vam?
+> Vam is a package for support MVI (Uni-Directional Architecture) in SwiftUI.
 
 ### ✔️ View
 ```swift
